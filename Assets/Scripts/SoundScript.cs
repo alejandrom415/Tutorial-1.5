@@ -87,5 +87,13 @@ public class SoundScript : MonoBehaviour
 
         }
 
+      if (Input.GetKey("escape"))
+        
+        {
+        
+          Application.Quit();
+        
+        }
+
   }
 }
